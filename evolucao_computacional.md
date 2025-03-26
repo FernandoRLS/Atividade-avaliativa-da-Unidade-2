@@ -31,8 +31,8 @@ Atualidade e Futuro:
 - Crescente adoção de Inteligência Artificial avançada, como modelos GPT, para automatizar decisões financeiras baseadas em grandes volumes de dados em tempo real.
 
 Tecnologias mais Relevantes ao Problema:
-- Bancos de Dados Relacionais:** Base sólida para armazenamento estruturado e eficiente de informações financeiras.
-- Big Data e Computação em Nuvem:** Permitem escalabilidade e processamento rápido de grandes volumes de dados financeiros.
-- Aprendizado de Máquina e Deep Learning:** Cruciais para a criação de modelos preditivos altamente precisos e dinâmicos.
+- Bancos de Dados Relacionais: Base sólida para armazenamento estruturado e eficiente de informações financeiras.
+- Big Data e Computação em Nuvem: Permitem escalabilidade e processamento rápido de grandes volumes de dados financeiros.
+- Aprendizado de Máquina e Deep Learning: Cruciais para a criação de modelos preditivos altamente precisos e dinâmicos.
 - Computação Quântica:** Potencial para revolucionar o mercado financeiro com análise simultânea de variáveis complexas, possibilitando previsões ultra-rápidas e acuradas.
 
