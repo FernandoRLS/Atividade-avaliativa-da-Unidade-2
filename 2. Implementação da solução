@@ -1,1 +1,42 @@
+ Impacto da Evolução Computacional na Previsão de Tendências do Mercado Financeiro
+
+Etapa 2: Implementação da Solução Prática
+Nesta etapa, implementamos uma solução prática voltada para previsão de tendências do mercado financeiro, utilizando tecnologias avançadas como Big Data, Aprendizado de Máquina e Deep Learning.
+Documentação Detalhada da Implementação
+
+Tecnologias Escolhidas:
+- Linguagem de programação: Python
+- Bibliotecas principais: Pandas, NumPy, TensorFlow, Scikit-learn
+- Plataforma: Google Colab (para processamento inicial) e Amazon Web Services (AWS) para escalabilidade e execução em nuvem
+
+Escolhas de Design:
+- Aquisição dos Dados: Dados financeiros históricos foram coletados através de APIs abertas, como Alpha Vantage e Yahoo Finance, incluindo preços históricos de ações, índices e volumes negociados.
+- Pré-processamento: Dados foram organizados em séries temporais contínuas e tratados para remover inconsistências e valores faltantes. Aplicamos normalização dos dados para melhor desempenho do modelo.
+- odelo Preditivo: Optamos pelo uso de redes neurais recorrentes (RNNs), especialmente redes LSTM (Long Short-Term Memory), por sua eficácia comprovada na previsão de séries temporais financeiras complexas.
+
+Processo de Implementação:
+1. Coleta de Dados:
+   - Uso de scripts Python para coleta automatizada de dados via APIs.
+2. Limpeza e Tratamento:
+   - Identificação e correção de dados ausentes utilizando métodos estatísticos (imputação com médias e medianas).
+   - Normalização dos dados financeiros com Min-Max Scaler.
+3. Modelagem:
+   - Construção do modelo LSTM com TensorFlow, estruturado em camadas para capturar dependências temporais nos dados financeiros.
+4. Treinamento do Modelo:
+   - Treinamento realizado em ambiente Colab para validação inicial do modelo, com otimização dos hiperparâmetros utilizando Grid Search.
+5. Validação e Teste:
+   - Avaliação do desempenho do modelo utilizando métricas como Mean Absolute Error (MAE) e Root Mean Square Error (RMSE).
+6. Implementação em Nuvem:
+   - Deploy do modelo finalizado no Amazon AWS para execução escalável e acesso rápido aos resultados.
+
+Desafios Encontrados:
+- Grande volatilidade e ruído dos dados financeiros dificultaram a previsão precisa em determinados períodos.
+- Limitações iniciais na capacidade computacional ao treinar modelos mais complexos.
+- Gerenciamento de dados faltantes e descontinuidades em séries temporais financeiras.
+
+Soluções Adotadas:
+- Uso de técnicas avançadas como médias móveis e técnicas de suavização para reduzir ruídos nos dados.
+- Migração para infraestrutura de nuvem (AWS) resolveu as limitações computacionais, permitindo maior escala e velocidade no processamento.
+- Implementação de métodos robustos de imputação e validação cruzada para garantir qualidade e consistência na modelagem preditiva.
+
 
